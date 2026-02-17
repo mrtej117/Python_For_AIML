@@ -1,4 +1,0 @@
-lenght= int(input("enter value lenght : "))
-widht = int(input("enter value width : "))
-area =  lenght * widht
-print(area)
