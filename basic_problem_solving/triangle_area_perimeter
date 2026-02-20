@@ -1,0 +1,15 @@
+import math 
+
+def triangle(a, b, c):
+    perimeter = a + b + c
+    s = perimeter / 2
+    area = math.sqrt(s * (s-a) * (s-b) * (s-c))  
+    return (area, perimeter)
+
+a = int(input("enter side a: "))   
+b = int(input("enter side b: "))   
+c = int(input("enter side c: "))   
+
+p, are = triangle(a, b, c)
+print("Perimeter:", p)
+print("Area:", are)
