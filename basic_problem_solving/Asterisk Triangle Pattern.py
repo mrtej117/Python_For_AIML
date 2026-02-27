@@ -40,6 +40,14 @@ while(i<=rows):
     i = i+1
 
 
+#########################################22
+
+rows = int(input("Enter number: "))
+
+for i in range(1, rows + 1):
+    for j in range(2*i - 1):
+        print("*", end=" ")
+    print()
 
 
 
